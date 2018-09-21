@@ -39,7 +39,7 @@ $config['twig']['template_dir'] = VIEWPATH;
  * @var   string
  * @since 1.0.0
  */
-$config['twig']['template_ext'] = 'html';
+$config['twig']['template_ext'] = 'php';
 /**
  * --------------------------------------------------------------------------
  * Auto-escape Variables
@@ -54,7 +54,7 @@ $config['twig']['template_ext'] = 'html';
  * @since 1.0.0
  * @see   http://twig.sensiolabs.org/doc/api.html
  */
-$config['twig']['environment']['autoescape'] = TRUE;
+$config['twig']['environment']['autoescape'] = FALSE;
 /**
  * --------------------------------------------------------------------------
  * Cache Directory
